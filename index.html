@@ -7,11 +7,12 @@
     <title>Calculatrice AZ</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jersey+15&family=League+Spartan:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <div class="calculatrice">
+    <span>SpiderCAL</span>
     <p class="info"></p>
     <form name="form">
         <div class="resultat">
@@ -45,7 +46,10 @@
                 <input type="button" value="/" name="div" onclick="val(div.value)">
                 <input type="button" value="=" name="egale" onclick="calcule()">
             </div>   
-            <input type="button" class="reset" value="Spider Supp" name="reset" onclick="suppr()">       
+            <button class="reset" onclick="suppr()">
+                <img src="https://i.redd.it/onj8yk6vayf71.png" alt="Spider Icon" style="width: 50px; height: 50px; vertical-align: middle;">
+                Spider Supp
+            </button> 
         </div>
     </form>
    </div>

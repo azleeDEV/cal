@@ -30,11 +30,23 @@ body {
 
 .calculatrice {
     width: 330px;
-    background: #120f1f;
+    background: #0f0c1d;
     padding: 40px 30px;
     border-radius: 10px;
     box-shadow: -3px -3px 7px #221d3b,3px 3px 5px #00000070;
 }
+
+.calculatrice span{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: "Chakra Petch", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 .calculatrice .resultat {
     height: 60px;
@@ -85,11 +97,22 @@ body {
  .reset {
     width: 100% !important;
     font-size: 18px !important;
+    height: 56px;
+    margin: 4px;
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #881212 !important;
+    color: #f1f1f1;
+    border: none;
+    outline: none;
+    box-shadow:  -2px -2px 7px #221d3b,2px 2px 5px #00000070;
+    border-radius: 6px;
+    cursor: pointer;
+
 }
 
 
 .infos {
-    color: #eb9595;
+    color: #f700ff;
     text-align: center;
     text-transform: uppercase;
     font-size: 9px;
