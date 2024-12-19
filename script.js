@@ -15,8 +15,13 @@ function calcule(){
             })
         })
     }else {
-        form.fenetre.value = eval(form.fenetre.value);
-        info.innerText = ""
+        // Vérification pour l'easter egg
+        if (form.fenetre.value === "555*7") {
+            window.location.href = "https://i.gifer.com/2c1Q.gif"; // Remplacez par l'URL de votre page Instagram
+        } else {
+            form.fenetre.value = eval(form.fenetre.value);
+            info.innerText = "";
+        }
     }
 }
 
