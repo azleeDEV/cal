@@ -16,9 +16,16 @@ function calcule(){
         })
     }else {
         // Vérification pour l'easter egg
-        if (form.fenetre.value === "555*7") {
+        if (form.fenetre.value === "123*4") {
             window.location.href = "https://i.gifer.com/2c1Q.gif"; // Remplacez par l'URL de votre page Instagram
-        } else {
+        } 
+        else if (form.fenetre.value === "1+1") {
+            window.location.href = "https://leclaireur.fnac.com/wp-content/uploads/2023/10/spiderman7.jpg";
+        } 
+        else if (form.fenetre.value === "6/2") {
+            window.location.href = "https://i.gifer.com/5XQl.mp4";
+        } 
+        else {
             form.fenetre.value = eval(form.fenetre.value);
             info.innerText = "";
         }
